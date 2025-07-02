@@ -1,0 +1,11 @@
+{
+  "version": 100,
+  "constants": {
+    "BURNER_HOTKEY": "5Exk3MCnMtHmvwUrtnP4DmmEG2wQC9d79ccw9tnpKzkPmXSW",
+    "VERIFICATION_EMISSION": 0.05,
+    "USAGE_EMISSION": 0.95,
+    "BLOCK_TIME": 12,
+    "ALPHA_PER_EPOCH": 147.6,
+    "MINER_BONUS_MULTIPLIER": 1.15
+  }
+} 
