@@ -9,6 +9,10 @@
         "o1-mini": {
           "input_price_per_million_tokens": 1.10,
           "output_price_per_million_tokens": 4.40
+        },
+        "gpt-4o": {
+          "input_price_per_million_tokens": 1.10,
+          "output_price_per_million_tokens": 4.40
         }
       }
     },
@@ -31,6 +35,10 @@
           "output_price_per_million_tokens": 10.00
         },
         "gemini-2.5-flash": {
+          "input_price_per_million_tokens": 0.30,
+          "output_price_per_million_tokens": 2.50
+        },
+        "gemini-2.0-flash": {
           "input_price_per_million_tokens": 0.30,
           "output_price_per_million_tokens": 2.50
         }
