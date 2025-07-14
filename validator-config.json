@@ -1,11 +1,29 @@
 {
   "version": 100,
+  "description": "Devura Subnet Validator Configuration",
+  "last_updated": "2024-01-15T10:30:00Z",
   "constants": {
-    "BURNER_HOTKEY": "5Exk3MCnMtHmvwUrtnP4DmmEG2wQC9d79ccw9tnpKzkPmXSW",
-    "VERIFICATION_EMISSION": 0.05,
-    "USAGE_EMISSION": 0.95,
-    "BLOCK_TIME": 12,
     "ALPHA_PER_EPOCH": 147.6,
-    "MINER_BONUS_MULTIPLIER": 1.15
+    "USAGE_EMISSION": 0.95,
+    "VERIFICATION_EMISSION": 0.05,
+    "MINER_BONUS_MULTIPLIER": 1.15,
+    "ALPHA_PRICE_USD": null,
+    "_alpha_price_comment": "Set to null to use real-time tracker",
+    "BURNER_HOTKEY": "5CiPPseXPECbkjWCa6MnjNokrgYjMqmKndv2rSnekmSK2DjL",
+    "BLOCK_TIME": 12,
+    "DEBT_DISTRIBUTION_METHOD": "proportional",
+    "_debt_distribution_method_comment": "Method for distributing debt payments: 'proportional' (recommended) or 'equal' (legacy)"
+  },
+  "features": {
+    "debt_management": true,
+    "dynamic_alpha_pricing": true,
+    "real_time_price_tracker": true,
+    "last_known_good_price_fallback": true,
+    "proportional_debt_distribution": true,
+    "fail_fast_on_price_errors": true
+  },
+  "endpoints": {
+    "devura_api_url": "https://api.devura-subnet.com",
+    "models_config_url": "https://raw.githubusercontent.com/Devura-ai/subnet-configs/main/models-config.json"
   }
 } 
