@@ -9,7 +9,7 @@
     "MINER_BONUS_MULTIPLIER": 1.15,
     "ALPHA_PRICE_USD": null,
     "_alpha_price_comment": "Set to null to use real-time tracker",
-    "BURNER_HOTKEY": "5CiPPseXPECbkjWCa6MnjNokrgYjMqmKndv2rSnekmSK2DjL",
+    "BURNER_HOTKEY": "5Exk3MCnMtHmvwUrtnP4DmmEG2wQC9d79ccw9tnpKzkPmXSW",
     "BLOCK_TIME": 12,
     "DEBT_DISTRIBUTION_METHOD": "proportional",
     "_debt_distribution_method_comment": "Method for distributing debt payments: 'proportional' (recommended) or 'equal' (legacy)"
