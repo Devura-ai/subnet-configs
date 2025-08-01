@@ -43,6 +43,22 @@
           "output_price_per_million_tokens": 2.50
         }
       }
+    },
+    "chutes": {
+      "models": {
+        "deepseek-ai/DeepSeek-R1-0528": {
+          "input_price_per_million_tokens": 0.2722,
+          "output_price_per_million_tokens": 0.2722
+        },
+        "zai-org/GLM-4.5-Air": {
+          "input_price_per_million_tokens": 0.00,
+          "output_price_per_million_tokens": 0.00
+        },
+        "zai-org/GLM-4.5-FP8": {
+          "input_price_per_million_tokens": 0.00,
+          "output_price_per_million_tokens": 0.00
+        }
+      }
     }
   }
 }
