@@ -23,7 +23,7 @@
     "fail_fast_on_price_errors": true
   },
   "endpoints": {
-    "devura_api_url": "https://api.devura-subnet.com",
+    "devura_api_url": "https://api.devura.ai",
     "models_config_url": "https://raw.githubusercontent.com/Devura-ai/subnet-configs/main/models-config.json"
   }
 } 
