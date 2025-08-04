@@ -4,15 +4,18 @@
       "models": {
         "o3": {
           "input_price_per_million_tokens": 2.00,
-          "output_price_per_million_tokens": 8.00
+          "output_price_per_million_tokens": 8.00,
+          "max_slots": 19
         },
         "o1-mini": {
           "input_price_per_million_tokens": 1.10,
-          "output_price_per_million_tokens": 4.40
+          "output_price_per_million_tokens": 4.40,
+          "max_slots": 19
         },
         "gpt-4o": {
           "input_price_per_million_tokens": 1.10,
-          "output_price_per_million_tokens": 4.40
+          "output_price_per_million_tokens": 4.40,
+          "max_slots": 19
         }
       }
     },
@@ -20,11 +23,13 @@
       "models": {
         "claude-sonnet-4": {
           "input_price_per_million_tokens": 3.00,
-          "output_price_per_million_tokens": 15.00
+          "output_price_per_million_tokens": 15.00,
+          "max_slots": 19
         },
         "claude-opus-4": {
           "input_price_per_million_tokens": 15.00,
-          "output_price_per_million_tokens": 75.00
+          "output_price_per_million_tokens": 75.00,
+          "max_slots": 19
         }
       }
     },
@@ -32,15 +37,18 @@
       "models": {
         "gemini-2.5-pro": {
           "input_price_per_million_tokens": 1.25,
-          "output_price_per_million_tokens": 10.00
+          "output_price_per_million_tokens": 10.00,
+          "max_slots": 19
         },
         "gemini-2.5-flash": {
           "input_price_per_million_tokens": 0.30,
-          "output_price_per_million_tokens": 2.50
+          "output_price_per_million_tokens": 2.50,
+          "max_slots": 18
         },
         "gemini-2.0-flash": {
           "input_price_per_million_tokens": 0.30,
-          "output_price_per_million_tokens": 2.50
+          "output_price_per_million_tokens": 2.50,
+          "max_slots": 18
         }
       }
     },
@@ -48,15 +56,18 @@
       "models": {
         "deepseek-ai/DeepSeek-R1-0528": {
           "input_price_per_million_tokens": 0.2722,
-          "output_price_per_million_tokens": 0.2722
+          "output_price_per_million_tokens": 0.2722,
+          "max_slots": 18
         },
         "zai-org/GLM-4.5-Air": {
           "input_price_per_million_tokens": 0.00,
-          "output_price_per_million_tokens": 0.00
+          "output_price_per_million_tokens": 0.00,
+          "max_slots": 18
         },
         "zai-org/GLM-4.5-FP8": {
           "input_price_per_million_tokens": 0.00,
-          "output_price_per_million_tokens": 0.00
+          "output_price_per_million_tokens": 0.00,
+          "max_slots": 18
         }
       }
     },
@@ -64,13 +75,15 @@
       "models": {
         "grok-4": {
           "input_price_per_million_tokens": 3.00,
-          "output_price_per_million_tokens": 15.00
+          "output_price_per_million_tokens": 15.00,
+          "max_slots": 18
         },
         "grok-3": {
           "input_price_per_million_tokens": 3.00,
-          "output_price_per_million_tokens": 15.00
+          "output_price_per_million_tokens": 15.00,
+          "max_slots": 18
         }
       }
     }
   }
-}
+} 
