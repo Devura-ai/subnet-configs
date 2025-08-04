@@ -15,7 +15,7 @@
         "gpt-4o": {
           "input_price_per_million_tokens": 1.10,
           "output_price_per_million_tokens": 4.40,
-          "max_slots": 4
+          "max_slots": 3
         }
       }
     },
