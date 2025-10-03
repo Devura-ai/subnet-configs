@@ -1,6 +1,7 @@
 {
   "providers": {
     "openai": {
+      "logo_url": "https://img.logo.dev/openai.com?token=pk_IJ1v6NGgTMaZM4XVrGpk-g&format=png&retina=true",
       "models": {
         "gpt-5": {
           "input_price_per_million_tokens": 1.25,
@@ -30,6 +31,7 @@
       }
     },
     "anthropic": {
+      "logo_url": "https://img.logo.dev/anthropic.com?token=pk_IJ1v6NGgTMaZM4XVrGpk-g&format=png&retina=true",
       "models": {
         "claude-sonnet-4": {
           "input_price_per_million_tokens": 3.00,
@@ -44,6 +46,7 @@
       }
     },
     "google": {
+      "logo_url": "https://img.logo.dev/google.com?token=pk_IJ1v6NGgTMaZM4XVrGpk-g&format=png&retina=true",
       "models": {
         "gemini-2.5-pro": {
           "input_price_per_million_tokens": 1.25,
@@ -63,6 +66,7 @@
       }
     },
     "chutes": {
+      "logo_url": "https://img.logo.dev/chutes.ai?token=pk_IJ1v6NGgTMaZM4XVrGpk-g&format=png&retina=true",
       "models": {
         "deepseek-ai/DeepSeek-R1-0528": {
           "input_price_per_million_tokens": 0.2722,
@@ -92,6 +96,7 @@
       }
     },
     "xai": {
+      "logo_url": "https://img.logo.dev/grok.com?token=pk_IJ1v6NGgTMaZM4XVrGpk-g&format=png&retina=true",
       "models": {
         "grok-4-0709": {
           "input_price_per_million_tokens": 3.00,
