@@ -95,6 +95,16 @@
         }
       }
     },
+    "test":{
+            "logo_url": "https://devura-bucket.s3.us-east-1.amazonaws.com/xai.svg",
+      "models": {
+        "saram": {
+          "input_price_per_million_tokens": 3.00,
+          "output_price_per_million_tokens": 15.00,
+          "max_slots": 18
+        }
+      }
+    }
     "xai": {
       "logo_url": "https://devura-bucket.s3.us-east-1.amazonaws.com/xai.svg",
       "models": {
