@@ -33,12 +33,12 @@
     "anthropic": {
       "logo_url": "https://devura-bucket.s3.us-east-1.amazonaws.com/anthropic.svg",
       "models": {
-        "claude-sonnet-4": {
+        "claude-sonnet-4-5-20250929": {
           "input_price_per_million_tokens": 3.00,
           "output_price_per_million_tokens": 15.00,
           "max_slots": 19
         },
-        "claude-opus-4": {
+        "claude-opus-4-1-20250805": {
           "input_price_per_million_tokens": 15.00,
           "output_price_per_million_tokens": 75.00,
           "max_slots": 19
